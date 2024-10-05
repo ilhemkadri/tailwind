@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psych Insights</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="bg-gray-900 text-white p-3 shadow-lg glow">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+          <h1 class="text-4xl font-bold tracking-tight uppercase glow-text">
+            Psych <span class="text-indigo-500">Insights</span>
+          </h1>
+          <!-- Desktop Menu -->
+          <nav class="hidden md:flex space-x-8 text-lg">
+            <a href="#" class="hover:text-indigo-500 transition duration-300 glow-text">Home</a>
+            <a href="#" class="hover:text-indigo-500 transition duration-300 glow-text">Articles</a>
+            <a href="#" class="hover:text-indigo-500 transition duration-300 glow-text">About</a>
+            <a href="#" class="hover:text-indigo-500 transition duration-300 glow-text">Contact</a>
+          </nav>
+          <!-- Hamburger Icon -->
+          <button id="menu-toggle" class="md:hidden text-indigo-500 focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 glow-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      
+        <!-- Mobile Menu -->
+        <nav id="mobile-menu" class="hidden md:hidden bg-gray-800 p-4">
+          <a href="#" class="block py-2 hover:text-indigo-500 glow-text">Home</a>
+          <a href="#" class="block py-2 hover:text-indigo-500 glow-text">Articles</a>
+          <a href="#" class="block py-2 hover:text-indigo-500 glow-text">About</a>
+          <a href="#" class="block py-2 hover:text-indigo-500 glow-text">Contact</a>
+        </nav>
+      </header>
+      <section class="bg-gray-900 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-3xl font-bold text-white text-center mb-8">Featured Articles</h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Article 1 -->
+            <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105">
+              <img class="w-full h-48 object-cover rounded-md mb-4 glow-img" src="1.gif" alt="Article 1">
+              <h3 class="text-2xl font-semibold text-indigo-400 mb-2">The Power of Mindfulness</h3>
+              <p class="text-gray-300">Explore how mindfulness can help alleviate stress and improve mental well-being...</p>
+              <a href="#" class="text-indigo-500 mt-4 inline-block hover:text-indigo-300 transition duration-300">Read more →</a>
+            </div>
+      
+            <!-- Article 2 -->
+            <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105">
+              <img class="w-full h-48 object-cover rounded-md mb-4 glow-img" src="5.gif" alt="Article 2">
+              <h3 class="text-2xl font-semibold text-indigo-400 mb-2">Understanding Cognitive Bias</h3>
+              <p class="text-gray-300">Dive deep into cognitive biases and how they influence our decisions and behaviors...</p>
+              <a href="#" class="text-indigo-500 mt-4 inline-block hover:text-indigo-300 transition duration-300">Read more →</a>
+            </div>
+      
+            <!-- Article 3 -->
+            <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105">
+              <img class="w-full h-48 object-cover rounded-md mb-4 glow-img" src="4.gif" alt="Article 3">
+              <h3 class="text-2xl font-semibold text-indigo-400 mb-2">The Science of Emotions</h3>
+              <p class="text-gray-300">Learn about the psychological science behind emotions and how they shape our experiences...</p>
+              <a href="#" class="text-indigo-500 mt-4 inline-block hover:text-indigo-300 transition duration-300">Read more →</a>
+            </div>
+              <!-- Article 4 -->
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105">
+        <img class="w-full h-48 object-cover rounded-md mb-4 glow-img" src="8.gif" alt="Article 4">
+        <h3 class="text-2xl font-semibold text-indigo-400 mb-2">Neuroplasticity and Growth</h3>
+        <p class="text-gray-300">Discover how the brain's neuroplasticity can help foster growth and learning over time...</p>
+        <a href="#" class="text-indigo-500 mt-4 inline-block hover:text-indigo-300 transition duration-300">Read more →</a>
+      </div>
+
+      <!-- Article 5 -->
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105">
+        <img class="w-full h-48 object-cover rounded-md mb-4 glow-img" src="6.gif" alt="Article 5">
+        <h3 class="text-2xl font-semibold text-indigo-400 mb-2">The Psychology of Happiness</h3>
+        <p class="text-gray-300">Uncover the psychological factors that contribute to long-lasting happiness and fulfillment...</p>
+        <a href="#" class="text-indigo-500 mt-4 inline-block hover:text-indigo-300 transition duration-300">Read more →</a>
+      </div>
+
+      <!-- Article 6 -->
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105">
+        <img class="w-full h-48 object-cover rounded-md mb-4 glow-img" src="7.gif" alt="Article 6">
+        <h3 class="text-2xl font-semibold text-indigo-400 mb-2">Coping with Anxiety</h3>
+        <p class="text-gray-300">Learn practical psychological techniques to manage anxiety and reduce its impact...</p>
+        <a href="#" class="text-indigo-500 mt-4 inline-block hover:text-indigo-300 transition duration-300">Read more →</a>
+      </div>
+          </div>
+        </div>
+      </section>
+      <!-- Categories Section -->
+<section class="bg-gray-900 py-12">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-white text-center mb-8">Explore Topics</h2>
+        <div class="flex flex-wrap justify-center gap-6">
+            <!-- Category 1 -->
+            <a href="#" class="bg-indigo-600 text-white py-3 px-6 rounded-lg shadow-md hover:bg-indigo-500 transition duration-300">
+                <span class="font-semibold">Therapies</span>
+            </a>
+
+            <!-- Category 2 -->
+            <a href="#" class="bg-indigo-600 text-white py-3 px-6 rounded-lg shadow-md hover:bg-indigo-500 transition duration-300">
+                <span class="font-semibold">Motivation</span>
+            </a>
+
+            <!-- Category 3 -->
+            <a href="#" class="bg-indigo-600 text-white py-3 px-6 rounded-lg shadow-md hover:bg-indigo-500 transition duration-300">
+                <span class="font-semibold">Emotions</span>
+            </a>
+
+            <!-- Category 4 -->
+            <a href="#" class="bg-indigo-600 text-white py-3 px-6 rounded-lg shadow-md hover:bg-indigo-500 transition duration-300">
+                <span class="font-semibold">Mental Health</span>
+            </a>
+
+            <!-- Category 5 -->
+            <a href="#" class="bg-indigo-600 text-white py-3 px-6 rounded-lg shadow-md hover:bg-indigo-500 transition duration-300">
+                <span class="font-semibold">Cognitive Science</span>
+            </a>
+
+            <!-- Category 6 -->
+            <a href="#" class="bg-indigo-600 text-white py-3 px-6 rounded-lg shadow-md hover:bg-indigo-500 transition duration-300">
+                <span class="font-semibold">Psych Research</span>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- Recent Posts Section -->
+<section class="bg-gray-900 py-12">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-white text-center mb-8">Recent Posts</h2>
+        <div class="space-y-6">
+            <!-- Post 1 -->
+            <article class="bg-gray-800 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-indigo-400">
+                    <a href="#" class="hover:underline">Understanding Anxiety: Tips for Coping</a>
+                </h3>
+                <p class="text-gray-300 mt-2">Published on <span class="font-semibold">October 1, 2024</span></p>
+            </article>
+
+            <!-- Post 2 -->
+            <article class="bg-gray-800 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-indigo-400">
+                    <a href="#" class="hover:underline">The Role of Self-Care in Mental Health</a>
+                </h3>
+                <p class="text-gray-300 mt-2">Published on <span class="font-semibold">September 28, 2024</span></p>
+            </article>
+
+            <!-- Post 3 -->
+            <article class="bg-gray-800 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-indigo-400">
+                    <a href="#" class="hover:underline">Exploring the Connection Between Mind and Body</a>
+                </h3>
+                <p class="text-gray-300 mt-2">Published on <span class="font-semibold">September 25, 2024</span></p>
+            </article>
+
+            <!-- Post 4 -->
+            <article class="bg-gray-800 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-indigo-400">
+                    <a href="#" class="hover:underline">How to Build Resilience During Tough Times</a>
+                </h3>
+                <p class="text-gray-300 mt-2">Published on <span class="font-semibold">September 20, 2024</span></p>
+            </article>
+
+            <!-- Post 5 -->
+            <article class="bg-gray-800 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-indigo-400">
+                    <a href="#" class="hover:underline">The Importance of Setting Boundaries for Mental Health</a>
+                </h3>
+                <p class="text-gray-300 mt-2">Published on <span class="font-semibold">September 15, 2024</span></p>
+            </article>
+        </div>
+    </div>
+</section>
+<!-- Newsletter Subscription Section -->
+<section class="bg-gray-800 py-12">
+    <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold text-white mb-6">Subscribe to Our Newsletter</h2>
+        <p class="text-gray-400 mb-6">Stay updated with the latest posts and insights in psychology.</p>
+        <form class="flex justify-center">
+            <input type="email" placeholder="Enter your email" class="p-3 rounded-l-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-400" required>
+            <button type="submit" class="bg-indigo-600 text-white p-3 rounded-r-lg hover:bg-indigo-500 transition duration-200">Subscribe</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-900 py-6">
+    <div class="container mx-auto text-center text-gray-300">
+        <p class="mb-4">&copy; 2024 Psych Insights. All rights reserved.</p>
+        <div class="flex justify-center space-x-6 mb-4">
+            <a href="#" class="hover:text-indigo-400 transition duration-200" aria-label="Facebook">
+                <i class='bx bxl-facebook'></i>
+            </a>
+            <a href="#" class="hover:text-indigo-400 transition duration-200" aria-label="Twitter">
+                <i class='bx bxl-twitter'></i>
+            </a>
+            <a href="#" class="hover:text-indigo-400 transition duration-200" aria-label="LinkedIn">
+                <i class='bx bxl-linkedin'></i>
+            </a>
+            <a href="#" class="hover:text-indigo-400 transition duration-200" aria-label="Instagram">
+                <i class='bx bxl-instagram'></i>
+            </a>
+            <a href="#" class="hover:text-indigo-400 transition duration-200" aria-label="YouTube">
+                <i class='bx bxl-youtube'></i>
+            </a>
+        </div>
+        <ul class="flex justify-center space-x-6">
+            <li><a href="#" class="hover:text-indigo-400 transition duration-200">Privacy Policy</a></li>
+            <li><a href="#" class="hover:text-indigo-400 transition duration-200">Terms of Service</a></li>
+        </ul>
+    </div>
+</footer>
+
+
+  
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+  
+    menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+  
+    
+</body>
+</html>

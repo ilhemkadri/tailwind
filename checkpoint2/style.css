@@ -1,0 +1,18 @@
+
+.glow {
+    box-shadow: 0 0 15px rgba(75, 0, 130, 0.6), 0 0 20px rgba(75, 0, 130, 0.8);
+  }
+  
+.glow-text {
+    text-shadow: 0 0 8px rgba(75, 0, 130, 0.8), 0 0 10px rgba(75, 0, 130, 1);
+  }
+  
+ 
+.glow-icon {
+    filter: drop-shadow(0 0 8px rgba(75, 0, 130, 0.8));
+  }
+  
+.glow-img {
+    box-shadow: 0 0 10px rgba(75, 0, 130, 0.6), 0 0 15px rgba(75, 0, 130, 0.8);
+  }
+  
